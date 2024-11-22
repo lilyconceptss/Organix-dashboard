@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+.main-container{
+    width: 100;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+.left-bar{
+    width:20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 1rem;
+    border-right: 1px solid rgb(123, 122, 122);
+    row-gap: 0.5rem;
+    background-color: whitesmoke;
+}
+.logo-search-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+.logo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.search-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(195, 192, 192);
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+}
+.form{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+   
+    background-color: rgb(195, 192, 192);
+    
+}
+input{
+    background-color: rgb(195, 192,192);
+    
+    border: none;
+}
+.search-icon-container{
+    width: fit-content;
+    height: auto;
+    color: rgb(128, 127, 127) ;
+}
+.f-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    align-items: center;
+    column-gap: 0.4rem;
+    background-color: white;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
+
+.logo{
+    font-size:0.8rem;
+    font-weight: 600;
+    color: rgb(29, 29, 29);
+}
+
+.main-menu-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap:0.5rem;
+}
+.main-header p{
+    color: rgb(85, 84, 84);
+}
+.menu-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.4rem;
+}
+.menu-text{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+    padding: 0.7rem 0.7rem;
+    border-radius: 0.4rem;
+}
+.menu-text:hover, .goat{
+    background-color: rgb(205, 205, 243);
+    color:blue ;
+}  
+
+.circle{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color: rgb(18, 18, 230);
+}
+.purple{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color: purple;
+}
+.orange{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color:orange;
+}
+.pink{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color:pink;
+}
+/* right bar section      ############################## */
+.right-bar{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.conatiner-one{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: whitesmoke;
+}
+.task-container{
+    width: fit-content;
+    height: auto;
+}
+.task-container p{
+    color: black;
+    font-size: 200%;
+    
+}
+.second-task-container{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+    column-gap: 1rem;
+}
+.imgae img{
+    width: 2rem;
+    height: 2rem;
+    border-radius:100%;
+}
+.second-task-container a{
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    color: blue;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+.container-two{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 0 1rem;
+}
+.board-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 2rem;
+}
+.board-container a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+.board-container .board{
+    color:black;
+}
+.baord-two{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 2rem;
+}
+.baord-two a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+   
+}
+.board{
+    padding: 1rem ;
+    
+    color:black
+}
+.board-container .boss{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.container-three{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    align-items: start;
+    column-gap: 2rem;
+    padding: 1rem 1rem ;
+}
+.do-one{
+    width: 100%;
+    background-color: rgb(204, 204, 254);
+    padding: 1rem ;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+}
+.two{
+    background-color: rgb(210, 252, 252);
+}
+.three{
+    background-color: rgb(198, 251, 198);
+}
+.container-four{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    padding:0rem 0rem 1rem 0rem;
+}
+.card-content{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start;
+    row-gap: 1rem;
+    
+}
+.card-one{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border:1px solid rgb(221, 221, 221);
+    border-radius: 0.8rem;
+}
+.card-content .first{
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.design{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: start;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+.information-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+.medium-date-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+.seperate{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+.medium{
+    background-color:rgb(230, 210, 171);
+    color: orange;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
+.medium i{
+    color: orange;
+    background-color: rgb(230, 210, 171);
+}
+.date{
+    background-color: rgb(218, 216, 216);
+    color: black;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
+.date i{
+    color: black;
+    background-color: rgb(218, 216, 216);
+}
+.me{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+.dd{
+    color: orange;
+    font-weight: 600;
+}
+.avatars-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+.icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+.avatars img{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  margin-left: -0.5rem;  
+}
+.card-one .image{
+    width: 100%;
+    height: auto;
+}
+.customer{
+    width: 100%;
+    height: auto;
+    font-size: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+.deve{
+    color: rgb(162, 167, 253);
+}
+.model{
+    color: rgb(215, 80, 215);
+}
+.low{
+    color:green;
+    background-color: rgb(219, 254, 219);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
